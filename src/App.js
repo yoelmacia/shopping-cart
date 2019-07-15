@@ -1,16 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div>
-      <nav className="nav-wrapper">
-        <div className="container">
-          Shopping
-          <ul className="right">
-            <li> My Cart </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
       <div>
         <span>Image: Image 1</span>
         <span>Name: Product 1</span>
