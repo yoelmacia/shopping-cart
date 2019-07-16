@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
-class Product extends Component {
+class Products extends Component {
   render() {
+    const entries = Object.entries(this.props.photos);
+    console.log(entries);
     return (
       <div>
-        <span>Image: Image 1</span>
+        <span>hola</span>
         <span>Name: Product 1</span>
         <span>Description: Blablabla 1</span>
         <span>Icon Add Cart 1 </span>
@@ -13,4 +15,4 @@ class Product extends Component {
   }
 }
 
-export default Product;
+export default Products;

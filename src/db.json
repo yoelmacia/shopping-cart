@@ -1,0 +1,102 @@
+[
+  {
+    "Brand": "Samsung",
+    "Model": "S8",
+    "Photo": "https://image-us.samsung.com/SamsungUS/home/mobile/mobile-accessories/pdp/SM-G950UZKAATT/gallery/S8_Black_front.jpg?$product-details-jpg$",
+    "RAM": "4GB",
+    "Storage": "64GB",
+    "Processor": "Snapdragon 835",
+    "Screen": "5.8",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Huawei",
+    "Model": "P20 Pro",
+    "Photo": "https://i.blogs.es/16be5c/p20-2/450_1000.jpg",
+    "RAM": "6GB",
+    "Storage": "128GB",
+    "Processor": "Kirin 970",
+    "Screen": "6.1",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Honor",
+    "Model": "8X",
+    "Photo": "https://i.blogs.es/d30337/honor-8x-android/450_1000.jpg",
+    "RAM": "6GB",
+    "Storage": "128GB",
+    "Processor": "Huawei HiSilicon Kirin 710",
+    "Screen": "6.5",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Huawei",
+    "Model": "P30 Pro",
+    "Photo": "https://www.leak.pt/wp-content/uploads/2018/12/p30.jpg",
+    "RAM": "8GB",
+    "Storage": "256GB",
+    "Processor": "Kirin 980",
+    "Screen": "6.7",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Apple",
+    "Model": "Iphone xr",
+    "Photo": "https://i.blogs.es/8d6de9/iphone-xr-yellow/450_1000.jpg",
+    "RAM": "3GB",
+    "Storage": "64GB",
+    "Processor": "Apple A12 Bionic",
+    "Screen": "6.1",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Apple",
+    "Model": "Iphone x",
+    "Photo": "https://i.blogs.es/2372ee/iphonex_front_back_glass/450_1000.jpg",
+    "RAM": "3GB",
+    "Storage": "64GB",
+    "Processor": "Apple A11 Bionic",
+    "Screen": "5.8",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Google",
+    "Model": "Pixel 3A",
+    "Photo": "https://i.blogs.es/3b1382/google-pixel-3a/450_1000.jpg",
+    "RAM": "4GB",
+    "Storage": "64GB",
+    "Processor": "Snapdragon 670",
+    "Screen": "5.6",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Motorola",
+    "Model": "Moto G7",
+    "Photo": "https://images-eu.ssl-images-amazon.com/images/I/41bwoqg8GFL.jpg",
+    "RAM": "4GB",
+    "Storage": "64GB",
+    "Processor": "Snapdragon 632",
+    "Screen": "6.2",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "ZTE",
+    "Model": "Blade V10",
+    "Photo": "https://www.tuexpertomovil.com/wp-content/uploads/2019/02/oficial-zte-blade-v10-01.jpg",
+    "RAM": "4GB",
+    "Storage": "64GB",
+    "Processor": "Octa-core 2.1",
+    "Screen": "6.3",
+    "Dualsim": "Yes"
+  },
+  {
+    "Brand": "Xiaomi",
+    "Model": "Mi A2",
+    "Photo": "https://d2giyh01gjb6fi.cloudfront.net/default/0002/48/thumb_147802_default_big.jpeg",
+    "RAM": "6GB",
+    "Storage": "64GB",
+    "Processor": "Snapdragon 660",
+    "Screen": "5.9",
+    "Dualsim": "Yes"
+  }
+]

@@ -1,21 +1,25 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import Product from "./Product";
+import Products from "./Products";
+
+const BASEURL =
+  "https://jsonplaceholder.typicode.com/albums/1/photos?_page=1&_limit=10";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { photos: [] };
   }
 
   receiveData() {
-    const BASEURL = "https://jsonplaceholder.typicode.com/albums/1/photos";
     fetch(BASEURL)
       .then(response => response.json())
-      .then(json => console.log(json));
+      .then(photos => {
+        this.setState({ photos });
+      });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.receiveData();
   }
 
@@ -23,7 +27,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Product />
+        <Products photos={this.state.photos} />
       </div>
     );
   }
