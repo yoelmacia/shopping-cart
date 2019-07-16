@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Products from "./Products";
 
-const BASEURL = "https://api.jsonbin.io/b/5d2da2bd0e90fe4acb2206d7";
+const BASEURL = "https://api.jsonbin.io/b/5d2da2bd0e90fe4acb2206d7/1";
 
 class App extends Component {
   constructor(props) {

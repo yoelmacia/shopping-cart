@@ -13,9 +13,9 @@ class Products extends Component {
     });
 
     const listProducts = phones.map((product, index) => (
-      <div key={index}>
-        <div className="product">
-          <img className="photo" alt="" src={product.Photo} />
+      <div key={index} className="product">
+        <img className="photo" alt="" src={product.Photo} />
+        <div className="feature">
           <div>Brand: {product.Brand}</div>
           <div>Model: {product.Model}</div>
           <div>Ram: {product.RAM}</div>
@@ -27,7 +27,12 @@ class Products extends Component {
       </div>
     ));
 
-    return <div>{listProducts}</div>;
+    return (
+      <div>
+        <h3 className="center">Mobile Phones</h3>
+        <div className="box">{listProducts}</div>
+      </div>
+    );
   }
 }
 

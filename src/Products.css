@@ -1,11 +1,22 @@
 .product {
+  margin: auto;
   width: 300px;
   height: 300px;
   border: 1px solid;
-  display: inline-block;
 }
-
 .photo {
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  font-size: 17px;
 }
