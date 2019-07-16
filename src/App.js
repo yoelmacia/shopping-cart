@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Products from "./Products";
+import Lodash from "lodash";
 
 const BASEURL = "https://api.jsonbin.io/b/5d2da2bd0e90fe4acb2206d7/1";
 
@@ -26,7 +27,13 @@ class App extends Component {
   }
 
   sortData = field => {
-    console.log(field);
+    this.setState({
+      phones: Lodash.sortBy(this.state.phones, [
+        function(field) {
+          return field.Brand;
+        }
+      ])
+    });
   };
 
   componentDidMount() {
