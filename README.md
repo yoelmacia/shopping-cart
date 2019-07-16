@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## The deploy of the webpage is avaliable here:
 
-In the project directory, you can run:
+[https://yoelmacia.github.io/shopping-cart/](https://yoelmacia.github.io/shopping-cart/)
 
 ### `npm start`
 
