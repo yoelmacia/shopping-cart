@@ -2,20 +2,26 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Products from "./Products";
 
-const BASEURL =
-  "https://jsonplaceholder.typicode.com/albums/1/photos?_page=1&_limit=10";
+const BASEURL = "https://api.jsonbin.io/b/5d2da2bd0e90fe4acb2206d7";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { photos: [] };
+    this.state = { phones: [] };
   }
 
   receiveData() {
-    fetch(BASEURL)
+    fetch(BASEURL, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        "secret-key":
+          "$2a$10$nGVP491f5U9BPGHnsqnC4OGdTeRmIz.Rmj0pYy30.pvUoetwWZpSy"
+      }
+    })
       .then(response => response.json())
-      .then(photos => {
-        this.setState({ photos });
+      .then(phones => {
+        this.setState({ phones });
       });
   }
 
@@ -27,7 +33,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Products photos={this.state.photos} />
+        <Products phones={this.state.phones} />
       </div>
     );
   }
