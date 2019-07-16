@@ -25,6 +25,10 @@ class App extends Component {
       });
   }
 
+  sortData = field => {
+    console.log(field);
+  };
+
   componentDidMount() {
     this.receiveData();
   }
@@ -33,7 +37,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Products phones={this.state.phones} />
+        <Products phones={this.state.phones} sortData={this.sortData} />
       </div>
     );
   }

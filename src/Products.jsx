@@ -3,16 +3,7 @@ import "./Products.css";
 
 class Products extends Component {
   render() {
-    const phones = [];
-    const values = Object.values(this.props);
-
-    values.forEach(x => {
-      x.forEach(y => {
-        phones.push(y);
-      });
-    });
-
-    const listProducts = phones.map((product, index) => (
+    const listProducts = this.props.phones.map((product, index) => (
       <div key={index} className="product">
         <img className="photo" alt="" src={product.Photo} />
         <div className="feature">
@@ -23,6 +14,13 @@ class Products extends Component {
           <div>Processor: {product.Processor}</div>
           <div>Screen: {product.Screen}</div>
           <div>Dualsim: {product.Dualsim}</div>
+          <button
+            onClick={e => {
+              this.props.sortData(product.Brand);
+            }}
+          >
+            Sort Me
+          </button>
         </div>
       </div>
     ));
