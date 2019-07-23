@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Products from "./Products";
+import Search from "./Search";
 import Lodash from "lodash";
 
 const BASEURL = "https://api.jsonbin.io/b/5d2da2bd0e90fe4acb2206d7/1";
@@ -44,6 +45,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Search phones={this.state.phones} />
         <Products phones={this.state.phones} sortData={this.sortData} />
       </div>
     );
